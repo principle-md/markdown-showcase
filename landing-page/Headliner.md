@@ -33,7 +33,7 @@ mindmap
 ## Beyond Walls of Text
 
 Large blocks of text are dense and difficult to parse. Our brains work overtime to find the signal in the noise.
-
+```html
 <div style="display: flex; justify-content: space-around; align-items: center; gap: 1em; padding: 1em; background-color: #1a1a1a; border-radius: 8px;">
     <div style="border: 1px solid #555; padding: 1em; width: 45%; text-align: center;">
         <h4 style="margin-top:0; color: #CCCCCC;">The Old Way: A Wall of Text</h4>
@@ -50,7 +50,7 @@ Large blocks of text are dense and difficult to parse. Our brains work overtime 
         </ul>
     </div>
 </div>
-
+```
 Custom presentations, generated from the same source material, transform dense information into a clear, digestible narrative.
 
 ## A Mature Standard Reimagined:
