@@ -1,5 +1,9 @@
 {
-  "headliner": "Headliner.md",
+  "headliner": {
+        "file": "Headliner.md",
+        "title": "Your Custom Headliner Title",
+        "description": "Your custom description goes here, overriding the file's metadata."
+      },
   "sections": [
   ]
 }
