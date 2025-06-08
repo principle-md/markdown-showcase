@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# IntelliJ Plugin Sandbox
+idea-sandbox/
+.DS_Store
+Thumbs.db
+*.log
+# Also ensure build/idea-sandbox is covered by build/ above
+captures/

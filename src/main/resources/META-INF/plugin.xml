@@ -1,0 +1,46 @@
+<idea-plugin>
+    <id>com.example.markdownshowcase</id>
+    <name>Markdown Showcase</name>
+    <vendor email="support@example.com" url="http://www.example.com">YourCompany</vendor>
+
+    <description><![CDATA[
+        Displays markdown slides in a tool window.
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.kotlin</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Markdown Showcase"
+                    anchor="right"
+                    icon="AllIcons.Actions.Slideshow"
+                    factoryClass="com.example.markdownshowcase.MarkdownShowcaseToolWindowFactory"/> <!-- Using a generic slideshow icon -->
+
+        <action id="MarkdownShowcase.OpenFile"
+                class="com.example.markdownshowcase.actions.OpenMarkdownFileAction"
+                text="Open Markdown Presentation"
+                description="Opens a markdown file for presentation."
+                icon="AllIcons.Actions.MenuOpen">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="control alt M" second-keystroke="O"/>
+        </action>
+
+        <action id="MarkdownShowcase.NextSlide"
+                class="com.example.markdownshowcase.actions.NextSlideAction"
+                text="Next Slide"
+                description="Moves to the next slide."
+                icon="AllIcons.Actions.NextOccurence"/>
+
+        <action id="MarkdownShowcase.PreviousSlide"
+                class="com.example.markdownshowcase.actions.PreviousSlideAction"
+                text="Previous Slide"
+                description="Moves to the previous slide."
+                icon="AllIcons.Actions.PrevOccurence"/>
+    </extensions>
+
+    <actions>
+        <!-- Define action groups for tool window toolbar if needed later -->
+    </actions>
+</idea-plugin>
