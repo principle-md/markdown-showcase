@@ -17,7 +17,7 @@ flowchart TD
 
 ## Final Slide
 
+<img src="./brands/cursor.png" />
 Thank you for testing!
 
 Press `Ctrl+Shift+V` to open the preview.
-:::
