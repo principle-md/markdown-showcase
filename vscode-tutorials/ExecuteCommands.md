@@ -1,9 +1,12 @@
-# Interactive Markdown Files 
+# Run Commands & Copy Prompts 
 
-Hit the run command
 
 ```bash
 npm run dev
+```
+
+```prompt
+Can you optimize this React Component {{file_name}}
 ```
 
 ## No More Copy And Paste 
@@ -40,7 +43,14 @@ flowchart TD
     style Terminal fill:#9c27b0
 ```
 
+## Copy Prompts 
+
+```prompt
+Can you optimize this React Component {{file_name}}
+```
+
 ## React Project Commands
+
 
 Here are useful commands for React development that you can execute directly:
 
