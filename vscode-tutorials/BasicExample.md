@@ -1,16 +1,12 @@
 
-:::slide
-# Welcome to PrincipleMD
+# Welcome to principle.md 
 
 This is a test slide for the VSCode extension.
 
 - Feature 1: Markdown slides
 - Feature 2: Mermaid diagrams
-- Feature 3: Theme switching
-:::
 
-:::slide
-# Mermaid Diagram Example
+## Mermaid Diagram Example
 ```mermaid
 flowchart TD
     AppState((App State))
@@ -18,10 +14,8 @@ flowchart TD
     ResizableDeck --reads/writes--> AppState
 ```
 
-:::
 
-:::slide
-# Final Slide
+## Final Slide
 
 Thank you for testing!
 
