@@ -5,6 +5,6 @@
         "description": "Be the Principle Engineer for your AI Dev Agents"
       },
   "sections": [
-    { "title": "vscode-tutorials", "files": ["BasicExample.md"] }
+    { "title": "vscode-tutorials", "files": ["vscode-tutorials/BasicExample.md"] }
   ]
 }
