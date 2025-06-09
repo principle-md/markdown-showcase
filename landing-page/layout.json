@@ -5,8 +5,11 @@
         "description": "Be the Principle Engineer for your AI Dev Agents"
       },
   "sections": [
+    "In Your Editor": VSCodeBanner,
+    "Code Comprehension": EditorIntegrationsBanner,
+    "Presentations": CreateSlidesBanner,
     {
-      "title": "vscode-tutorials",
+      "title": "In Your Editor",
       "files": [
         "vscode-tutorials/README.md",
         "vscode-tutorials/EditOrder.md",
@@ -14,7 +17,7 @@
       ]
     },
     {
-      "title": "devops",
+      "title": "Code Comprehension",
       "files": [
         "devops/Docker-Commands.md",
         "devops/Git-Workflow.md",
@@ -30,7 +33,7 @@
       ]
     },
     {
-      "title": "dev-setup",
+      "title": "Presentations",
       "files": [
         "dev-setup/Linting-And-Formatting.md",
         "dev-setup/TypeScript-Setup.md",
@@ -38,9 +41,19 @@
       ]
     },
     {
-      "title": "agent-showcase",
+      "title": "New Workflows",
       "files": [
         "agent-showcase/Agent-Progress-Tracker.md"
+      ]
+    },
+    {
+      "title": "Tools",
+      "files": [
+        "disruptor-showcase/Figma-For-Markdown.md",
+        "disruptor-showcase/API-Client-Killer.md",
+        "disruptor-showcase/Project-Management-Killer.md",
+        "disruptor-showcase/Knowledge-Base-Killer.md",
+        "disruptor-showcase/CI-CD-Monitoring-Killer.md"
       ]
     }
   ]
