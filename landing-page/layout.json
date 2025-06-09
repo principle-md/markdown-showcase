@@ -20,6 +20,28 @@
         "devops/Git-Workflow.md",
         "devops/Cloud-Deploy.md"
       ]
+    },
+    {
+      "title": "sysadmin",
+      "files": [
+        "sysadmin/Linux-Commands.md",
+        "sysadmin/Network-Tools.md",
+        "sysadmin/Process-Management.md"
+      ]
+    },
+    {
+      "title": "dev-setup",
+      "files": [
+        "dev-setup/Linting-And-Formatting.md",
+        "dev-setup/TypeScript-Setup.md",
+        "dev-setup/Development-Environment.md"
+      ]
+    },
+    {
+      "title": "agent-showcase",
+      "files": [
+        "agent-showcase/Agent-Progress-Tracker.md"
+      ]
     }
   ]
 }
