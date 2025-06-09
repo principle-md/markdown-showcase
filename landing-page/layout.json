@@ -5,9 +5,7 @@
         "description": "Be the Principle Engineer for your AI Dev Agents"
       },
   "sections": [
-    "In Your Editor": VSCodeBanner,
-    "Code Comprehension": EditorIntegrationsBanner,
-    "Presentations": CreateSlidesBanner,
+
     {
       "title": "In Your Editor",
       "files": [
@@ -47,7 +45,7 @@
       ]
     },
     {
-      "title": "Tools",
+      "title": "Limitless Possibilities",
       "files": [
         "disruptor-showcase/Figma-For-Markdown.md",
         "disruptor-showcase/API-Client-Killer.md",
