@@ -12,6 +12,14 @@
         "vscode-tutorials/EditOrder.md",
         "vscode-tutorials/ExecuteCommands.md"
       ]
+    },
+    {
+      "title": "devops",
+      "files": [
+        "devops/Docker-Commands.md",
+        "devops/Git-Workflow.md",
+        "devops/Cloud-Deploy.md"
+      ]
     }
   ]
 }
