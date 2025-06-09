@@ -7,7 +7,6 @@ This document replaces a Postman collection. It's living documentation that is i
 - **Description:** Retrieves a paginated list of users.
 - **Authentication:** `Required (Admin)`
 
----
 
 ## 1. Query Parameters
 
@@ -16,7 +15,6 @@ This document replaces a Postman collection. It's living documentation that is i
 - `sortBy` (optional, string, default: 'createdAt'): Field to sort by.
 - `order` (optional, string, default: 'desc'): Sort order ('asc' or 'desc').
 
----
 
 ## 2. Interactive Request
 
@@ -26,8 +24,6 @@ Click the "Run" button to execute this request against the live development serv
 curl -X GET 'https://dev-api.yourapp.com/api/users?page=1&limit=5' \
 -H 'Authorization: Bearer {{DEV_TOKEN}}'
 ```
-
----
 
 ## 3. Example Response
 
@@ -62,7 +58,6 @@ This is the expected shape of the response. Our CI pipeline fails if the actual 
 }
 ```
 
----
 
 ## 4. Generate Client Code
 
@@ -82,7 +77,5 @@ Generate a Python function using the `requests` library to call this endpoint. I
 ```prompt
 Generate a test file using `jest` and `supertest` to test this endpoint. Include tests for a successful request, an unauthorized request, and a request with invalid query parameters.
 ```
-
----
 
 > **The Guidewire Advantage:** Your API documentation is never stale. It's interactive, testable, and acts as a factory for generating client code and tests, eliminating the need for separate tools like Postman or Insomnia. 

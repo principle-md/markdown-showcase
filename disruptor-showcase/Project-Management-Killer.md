@@ -9,7 +9,6 @@ This document replaces a traditional Jira/Trello ticket. It lives in the codebas
 - **Sprint:** `Sprint 3 (ending 2024-08-15)`
 - **Related PR:** `[#42](https://github.com/your-repo/pull/42)`
 
----
 
 ## 1. Description
 
@@ -21,7 +20,6 @@ We need to create a new backend endpoint to retrieve a user's profile informatio
 - [x] Must be authenticated. Only the user themselves or an admin can access it.
 - [ ] Must have at least 80% test coverage.
 
----
 
 ## 2. Technical Plan
 
@@ -43,7 +41,6 @@ graph TD
     style F fill:#673ab7
 ```
 
----
 
 ## 3. Sub-Tasks & Progress
 
@@ -56,7 +53,6 @@ This checklist is updated automatically by the agent as it commits code.
 - [ ] Write unit tests for the controller.
 - [ ] Write integration test for the full endpoint.
 
----
 
 ## 4. Discussion & Blockers
 
@@ -72,6 +68,5 @@ A place for human-AI collaboration.
 Update the authorization logic in the `getUserProfile` controller to allow users with an 'admin' role to access any profile, in addition to users accessing their own. Here's the current code: {{controller_code}}
 ```
 
----
 
 > **The Guidewire Advantage:** This task ticket is not in a separate system. It's a version-controlled file that lives with your code. It can be automatically updated by CI/CD and AI agents, ensuring it's never out of sync with the actual state of the project. 

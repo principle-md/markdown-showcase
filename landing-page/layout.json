@@ -15,7 +15,7 @@
       ]
     },
     {
-      "title": "Code Comprehension",
+      "title": "Complexity Simplified => Mastery Trivialized",
       "files": [
         "devops/Docker-Commands.md",
         "devops/Git-Workflow.md",
@@ -41,14 +41,14 @@
     {
       "title": "New Workflows",
       "files": [
-        "agent-showcase/Agent-Progress-Tracker.md"
+        "agent-showcase/Agent-Progress-Tracker.md",
+        "disruptor-showcase/Figma-For-Markdown.md",
+        "disruptor-showcase/API-Client-Killer.md"
       ]
     },
     {
       "title": "Limitless Possibilities",
       "files": [
-        "disruptor-showcase/Figma-For-Markdown.md",
-        "disruptor-showcase/API-Client-Killer.md",
         "disruptor-showcase/Project-Management-Killer.md",
         "disruptor-showcase/Knowledge-Base-Killer.md",
         "disruptor-showcase/CI-CD-Monitoring-Killer.md"

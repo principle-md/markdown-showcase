@@ -8,13 +8,10 @@ A build failed on the `main` branch. This is an auto-generated report to help di
 - **Pipeline:** `Production Build & Deploy`
 - **Status:** `Failed` ❌
 
----
-
 ## 1. AI-Generated Summary
 
 The build pipeline failed during the **Unit Tests** stage. Specifically, the `user.service.test.ts` test suite is failing due to a timeout when trying to connect to the test Redis instance. This is likely caused by a misconfiguration in the test environment or an issue with the Dockerized Redis service in the CI environment.
 
----
 
 ## 2. Failure Analysis
 
@@ -47,7 +44,6 @@ FAIL src/services/user.service.test.ts
 ```
 </details>
 
----
 
 ## 3. Debugging Assistant
 
@@ -68,8 +64,6 @@ Check the logs for the `test-redis` container from the CI build. Was it running 
 Based on the error log and the code in `user.service.ts`, propose a fix for this failing test. The relevant code is: {{user_service_code}}
 ```
 
----
-
 ## 4. Suggested Actions
 
 Based on the failure, here are the likely next steps:
@@ -81,6 +75,5 @@ Based on the failure, here are the likely next steps:
   gh workflow run "CI/CD Pipeline" --ref main --input "job=unit-tests"
   ```
 
----
 
 > **The Guidewire Advantage:** Instead of raw log files, developers get a structured, intelligent, and interactive report when a build fails. This reduces the time to diagnose and fix issues from hours to minutes. 

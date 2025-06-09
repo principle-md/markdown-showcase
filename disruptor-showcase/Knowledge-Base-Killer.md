@@ -5,7 +5,6 @@ This interactive document replaces our static Confluence onboarding pages. Compl
 **Assigned To:** `new.engineer@example.com`
 **Progress:** `2/5 Steps Completed`
 
----
 
 ## 1. Install System Dependencies
 
@@ -24,7 +23,6 @@ First, you'll need Homebrew, Git, Node.js, and Docker.
   git --version && node --version && docker --version
   ```
 
----
 
 ## 2. Set Up Your Code Editor
 
@@ -41,7 +39,6 @@ We use VS Code. These commands will install it and our standard set of extension
   code --install-extension eamodio.gitlens
   ```
 
----
 
 ## 3. Clone and Configure the Repository
 
@@ -65,7 +62,6 @@ Now, let's get the code and set up your local environment.
   docker-compose up -d
   ```
 
----
 
 ## 4. Run the Application
 
@@ -81,7 +77,6 @@ Let's make sure the application runs correctly on your machine.
   ```
 - [ ] **Verify:** Open [http://localhost:3000](http://localhost:3000) in your browser. You should see the login page.
 
----
 
 ## 5. Your First Task
 

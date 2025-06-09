@@ -4,7 +4,6 @@ This document outlines the design, user flow, and component breakdown for the ne
 
 **Status:** `[ ] In Discussion` `[x] Ready for Dev` `[ ] Done`
 
----
 
 ## 1. User Flow
 
@@ -24,7 +23,6 @@ graph TD
     style B fill:#4caf50,stroke:#333,stroke-width:2px
 ```
 
----
 
 ## 2. Page Wireframe & Layout
 
@@ -57,7 +55,6 @@ graph TD
     style Right Pane fill:#f9f9f9,stroke:#ccc
 ```
 
----
 
 ## 3. Component Breakdown
 
@@ -80,7 +77,6 @@ These are the new React components we'll need to build.
 - **Data:** Fetches data from `/api/users/:id/activity`.
 - **Notes:** Should have a loading state and an empty state.
 
----
 
 ## 4. Design Review & Feedback
 
@@ -100,7 +96,5 @@ Based on this design, generate the boilerplate code for the `ProfileCard.tsx` co
 ```prompt
 Create a basic Storybook story for the `ProfileAvatar.tsx` component with controls for the `size` prop.
 ```
-
----
 
 > **The Guidewire Advantage:** This entire design is a simple text file. It can be versioned with Git, reviewed in a pull request alongside the code, and used to generate boilerplate with AI prompts. It will never be out of sync with the implementation. 
