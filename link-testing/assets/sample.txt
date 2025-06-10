@@ -1,0 +1,24 @@
+Sample Text File for Link Testing
+
+This is a plain text file used to test how the markdown slides system handles links to non-markdown files.
+
+Content:
+- This file should open in VS Code's text editor
+- It should not attempt to render as markdown slides
+- Links to this file test file type detection
+
+File Details:
+- Name: sample.txt
+- Type: Plain text
+- Purpose: Link testing for non-markdown files
+- Location: link-testing/assets/
+
+If you're reading this file in VS Code's editor, then:
+✅ Non-markdown file links are working correctly!
+
+Navigation:
+- You can return to the markdown slides by closing this file
+- The original slide presentation should still be open
+- Try navigating back to test more links
+
+Test completed successfully! 🎉 

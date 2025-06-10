@@ -1,0 +1,32 @@
+{
+  "name": "Link Testing Configuration",
+  "version": "1.0.0",
+  "description": "JSON file for testing non-markdown file links in the markdown slides system",
+  "type": "test-configuration",
+  "testing": {
+    "fileTypes": [
+      "markdown",
+      "text",
+      "json",
+      "image"
+    ],
+    "linkTypes": [
+      "internal-section",
+      "cross-document",
+      "external-url",
+      "file-reference"
+    ],
+    "expectedBehavior": {
+      "markdownFiles": "Open in slide presentation",
+      "textFiles": "Open in VS Code text editor",
+      "jsonFiles": "Open in VS Code JSON editor",
+      "imageFiles": "Open in appropriate viewer"
+    }
+  },
+  "status": {
+    "created": true,
+    "tested": false,
+    "working": "to-be-determined"
+  },
+  "message": "If you're viewing this JSON file in VS Code's editor, then JSON file links are working correctly! ✅"
+} 
