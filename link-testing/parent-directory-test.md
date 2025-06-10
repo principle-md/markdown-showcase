@@ -7,7 +7,7 @@ This file tests navigation to parent directories and files outside the current t
 - [Test Workspace Root](../README.md)
 - [Adjacent Project](../vscode-extension-react/)
 
-:::slide:::
+
 
 ## Parent Directory Navigation
 
@@ -29,7 +29,7 @@ PrincipleMD/                    ← Workspace root (1 level up)
 - [Parent Directory](../) - Directory listing (may not work)
 - [Adjacent Project README](../vscode-extension-react/README.md) - Sibling project
 
-:::slide:::
+
 
 ## Cross-Workspace Navigation
 
@@ -51,7 +51,7 @@ Testing navigation between different parts of the workspace.
 
 **Expected:** Markdown files should open appropriately; other files in VS Code editor.
 
-:::slide:::
+
 
 ## Relative Path Variations
 
@@ -72,7 +72,7 @@ Testing different styles of relative path references.
 - [Invalid Path](../nonexistent-file.md) - Should error
 - [Outside Workspace](../../outside-file.md) - May be restricted
 
-:::slide:::
+
 
 ## File Type Testing
 
@@ -98,7 +98,7 @@ Testing different file types in parent directories.
 - **Images:** Open in image viewer
 - **Directories:** May show error or open file explorer
 
-:::slide:::
+
 
 ## Security and Restrictions
 
@@ -121,7 +121,7 @@ Testing potential security restrictions on parent directory access.
 
 **Expected:** System should prevent access outside allowed areas.
 
-:::slide:::
+
 
 ## Cross-Reference Validation
 
@@ -144,7 +144,7 @@ If you reached this file from other test files:
 - [Cross-Document Test](./cross-document.md) - Continue testing
 - [Subfolder Test](./subfolder/nested-file.md) - Test other directions
 
-:::slide:::
+
 
 ## Test Results Summary
 

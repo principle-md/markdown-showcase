@@ -9,7 +9,7 @@ This file is deeply nested to test complex relative path navigation.
 - [Up One Level](../nested-file.md)
 - [Up Two Levels](../../cross-document.md)
 
-:::slide:::
+
 
 ## Final Destination
 
@@ -30,7 +30,7 @@ link-testing/                   ← Root (2 levels up)
 
 **Path Complexity:** `../../` to reach the root testing directory.
 
-:::slide:::
+
 
 ## Multi-Level Navigation
 
@@ -51,7 +51,7 @@ Testing navigation across multiple directory levels.
 - [Cross-Doc Navigation](../../cross-document.md#directory-navigation) - Root + specific section
 - [Deep Navigation Final](../../deep-navigation.md#final-destination) - Root + final section
 
-:::slide:::
+
 
 ## Complex Path Resolution
 
@@ -73,7 +73,7 @@ From `subfolder/deeper/deep-nested.md`:
 - [Complex Route](../../subfolder/deeper/deep-nested.md) - Full circle to self
 - [Invalid](../../../outside-workspace.md) - Outside workspace (should error)
 
-:::slide:::
+
 
 ## Cross-Reference Validation
 
@@ -92,7 +92,7 @@ If you reached this file by following links from other files, then:
 - ✅ Multi-level navigation functions
 - ✅ Complex anchor linking operates correctly
 
-:::slide:::
+
 
 ## File Type Testing from Deep Location
 
@@ -112,7 +112,7 @@ Testing different file types from the deepest nested location.
 - **Text/Config:** Open in VS Code editor
 - **Missing:** Show appropriate error
 
-:::slide:::
+
 
 ## Navigation Chain Completion
 
@@ -138,7 +138,7 @@ Multiple rapid links from deep location:
 - [Link C](../../file-with-anchors.md#middle-section)
 - [Back Here](#navigation-chain-completion)
 
-:::slide:::
+
 
 ## Error Handling from Deep Location
 
@@ -160,7 +160,7 @@ Testing error scenarios from the deepest nested location.
 
 **Expected:** System should handle all errors gracefully.
 
-:::slide:::
+
 
 ## Deep Navigation Test Results
 

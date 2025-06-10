@@ -7,7 +7,7 @@ This file is specifically designed to test cross-document anchor navigation.
 - [Cross-Document Test](./cross-document.md)
 - [Deep Navigation](./deep-navigation.md)
 
-:::slide:::
+
 
 ## Top Section
 
@@ -24,7 +24,7 @@ This is the first section of the anchor target file.
 
 **Expected:** Other files should be able to link directly to sections in this file.
 
-:::slide:::
+
 
 ## Middle Section
 
@@ -46,7 +46,7 @@ This section contains various content types:
 - [Go to Specific Target](#specific-anchor-target)
 - [Return to Cross-Document](./cross-document.md)
 
-:::slide:::
+
 
 ## Specific Anchor Target
 
@@ -65,7 +65,7 @@ This section tests:
 - [Deep Navigation Chain](./deep-navigation.md#navigation-chain-step-2)
 - [Hub Overview](./index.md#quick-test-scenarios)
 
-:::slide:::
+
 
 ## Section with Complex Name & Symbols!
 
@@ -83,7 +83,7 @@ This section tests anchor generation for complex heading names.
 **Cross-Document Links to This Section:**
 Other files should be able to link here using: `#section-with-complex-name-symbols`
 
-:::slide:::
+
 
 ## 🚀 Section with Emoji
 
@@ -102,7 +102,7 @@ The system should:
 - [Internal Jump](#bottom-section)
 - [External Reference](./cross-document.md#cross-document-anchors)
 
-:::slide:::
+
 
 ## Nested Content Testing
 
@@ -127,7 +127,7 @@ Maximum depth testing.
 - [Middle Level](#middle-section)
 - [Bottom Level](#bottom-section)
 
-:::slide:::
+
 
 ## Multi-Word Section for Testing
 
@@ -152,7 +152,7 @@ function testAnchorNavigation() {
 - [Referenced from Cross-Document](./cross-document.md)
 - [Referenced from Deep Navigation](./deep-navigation.md)
 
-:::slide:::
+
 
 ## Bottom Section
 

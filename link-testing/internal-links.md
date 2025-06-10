@@ -7,7 +7,7 @@ This file tests navigation between slides within the same presentation using int
 - [Skip to End](#final-section)
 - [Back to Hub](./index.md)
 
-:::slide:::
+
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ Internal section links use the `#` symbol followed by a heading slug. The system
 
 **Expected Behavior:** Each link should instantly navigate to the target slide.
 
-:::slide:::
+
 
 ## Second Section
 
@@ -42,7 +42,7 @@ This is the second section of the internal links test. Notice how the navigation
 - [Link to Numbered Section](#3-numbered-section)
 - [Link with Emoji](#section-with-emoji-🚀)
 
-:::slide:::
+
 
 ## Example Scenarios
 
@@ -66,7 +66,7 @@ Here are various internal link patterns you can test:
 - ⚠️ Invalid links show console warnings
 - 🔄 Cross-document links open other files
 
-:::slide:::
+
 
 ## Advanced Internal Navigation
 
@@ -89,7 +89,7 @@ Test a chain of internal navigation:
 2. Then click the link in that section →
 3. Follow the complete chain
 
-:::slide:::
+
 
 ## 3. Numbered Section
 
@@ -102,7 +102,7 @@ This tests that numbered headings create proper slugs.
 - [Go to Special Characters](#section-with-special-characters)
 - [Jump to Final](#final-section)
 
-:::slide:::
+
 
 ## Section with "Quotes" & Symbols!
 
@@ -115,7 +115,7 @@ The system strips special characters and creates clean slugs.
 - [Continue Chain](#chain-step-1)
 - [Skip to End](#final-section)
 
-:::slide:::
+
 
 ## Chain Step 1
 
@@ -125,7 +125,7 @@ This tests chained internal navigation.
 
 **Next:** [Continue to Step 2](#chain-step-2)
 
-:::slide:::
+
 
 ## Chain Step 2
 
@@ -134,7 +134,7 @@ This tests chained internal navigation.
 **Previous:** [Back to Step 1](#chain-step-1)
 **Next:** [Final Chain Step](#chain-step-3)
 
-:::slide:::
+
 
 ## Chain Step 3
 
@@ -143,7 +143,7 @@ This tests chained internal navigation.
 **Previous:** [Back to Step 2](#chain-step-2)
 **Complete:** [Go to Final Section](#final-section)
 
-:::slide:::
+
 
 ## Section with Emoji 🚀
 
@@ -156,7 +156,7 @@ The system handles emoji characters properly in slug generation.
 - [Final Section](#final-section)
 - [Return to Hub](./index.md)
 
-:::slide:::
+
 
 ## Subsection Test
 
@@ -172,7 +172,7 @@ This is an h4 level heading.
 - [Back to Advanced](#advanced-internal-navigation)
 - [Go to Final](#final-section)
 
-:::slide:::
+
 
 ## Middle Section
 
@@ -187,7 +187,7 @@ This section is specifically designed to be a common navigation target.
 - [To Final](#final-section)
 - [Return to Hub](./index.md)
 
-:::slide:::
+
 
 ## Final Section
 

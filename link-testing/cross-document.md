@@ -7,7 +7,7 @@ This file tests navigation between different markdown files in the same workspac
 - [Target File with Anchors](./file-with-anchors.md)
 - [Subfolder Navigation](./subfolder/nested-file.md)
 
-:::slide:::
+
 
 ## Same Directory Links
 
@@ -25,7 +25,7 @@ Testing links to files in the same directory as this file.
 
 **Expected Behavior:** Should open the target file in a new slide presentation.
 
-:::slide:::
+
 
 ## Cross-Document Anchors
 
@@ -43,7 +43,7 @@ Testing links that navigate to specific sections in other files.
 
 **Expected Behavior:** Should open the target file AND navigate to the specific section.
 
-:::slide:::
+
 
 ## Directory Navigation
 
@@ -63,7 +63,7 @@ Testing navigation to different directory levels.
 
 **Expected Behavior:** Should navigate correctly regardless of path style.
 
-:::slide:::
+
 
 ## File Extension Variations
 
@@ -85,7 +85,7 @@ Testing different file extensions and how they're handled.
 - Markdown files should open in slide view
 - Other files should open in appropriate VS Code editor
 
-:::slide:::
+
 
 ## Navigation Chains
 
@@ -108,7 +108,7 @@ Testing complex navigation patterns that link multiple files together.
 
 **Test the complete navigation flow!**
 
-:::slide:::
+
 
 ## Error Scenarios
 
@@ -130,7 +130,7 @@ Testing how the system handles problematic cross-document links.
 
 **Expected Behavior:** Should show appropriate error messages or fallback behavior.
 
-:::slide:::
+
 
 ## Path Resolution Testing
 
@@ -151,7 +151,7 @@ Testing how different path formats are resolved.
 
 **Path resolution should be consistent and predictable.**
 
-:::slide:::
+
 
 ## Performance Testing
 
@@ -170,7 +170,7 @@ Testing navigation with various file sizes and complexities.
 
 **Try clicking these links rapidly to test system performance.**
 
-:::slide:::
+
 
 ## Test Results Summary
 

@@ -2,7 +2,7 @@
 
 Welcome to the comprehensive link testing suite! This collection of markdown files tests all types of link functionality in the markdown slides extension.
 
-:::slide:::
+
 
 ## Test Categories
 
@@ -28,7 +28,7 @@ Click any link below to start testing specific functionality:
 - [Subfolder Navigation](./subfolder/nested-file.md) - Test relative path navigation
 - [Parent Directory Links](./parent-directory-test.md) - Test `../` navigation
 
-:::slide:::
+
 
 ## Quick Test Scenarios
 
@@ -47,7 +47,7 @@ Click any link below to start testing specific functionality:
 2. Then navigate to: [File with Anchors](./file-with-anchors.md#middle-section)
 3. Finally: [Complex Internal](./complex-internal.md#advanced-features)
 
-:::slide:::
+
 
 ## File Structure Overview
 
@@ -79,7 +79,7 @@ link-testing/
 4. **Click links** to test different functionality
 5. **Observe** behavior for each link type
 
-:::slide:::
+
 
 ## Expected Behaviors
 

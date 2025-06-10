@@ -9,7 +9,7 @@ This file tests navigation from subdirectories and relative path resolution.
 - [Parent Directory](../)
 - [Deep Nested File](./deeper/deep-nested.md)
 
-:::slide:::
+
 
 ## Nested Content
 
@@ -33,7 +33,7 @@ link-testing/
         └── deep-nested.md
 ```
 
-:::slide:::
+
 
 ## Parent Directory Navigation
 
@@ -51,7 +51,7 @@ Testing navigation back to parent directories.
 
 **Expected:** All links should navigate correctly to parent directory files.
 
-:::slide:::
+
 
 ## Same Directory Navigation
 
@@ -67,7 +67,7 @@ Testing navigation within the current subfolder.
 
 **Expected:** Both path styles should work identically.
 
-:::slide:::
+
 
 ## Cross-Directory Chains
 
@@ -87,7 +87,7 @@ Testing navigation chains that cross multiple directory levels.
 
 ⚠️ **Note:** Links outside the immediate workspace may have restrictions.
 
-:::slide:::
+
 
 ## File Type Testing
 
@@ -107,7 +107,7 @@ Testing different file types from a nested location.
 - **Other files:** Open in appropriate VS Code editor
 - **Missing files:** Show error message
 
-:::slide:::
+
 
 ## Path Edge Cases
 
@@ -127,7 +127,7 @@ Testing edge cases in path resolution from nested directories.
 - [Missing Nested](./missing-nested.md) - Non-existent nested file
 - [Invalid Path](./invalid/../../../outside.md) - Path outside workspace
 
-:::slide:::
+
 
 ## Link Resolution Testing
 
@@ -153,7 +153,7 @@ Other files that link to this file:
 - `../cross-document.md` → References this file
 - `../deep-navigation.md` → Part of navigation chains
 
-:::slide:::
+
 
 ## Test Results from Nested Location
 

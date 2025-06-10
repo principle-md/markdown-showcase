@@ -7,7 +7,7 @@ This file tests external URL handling with various protocols and domains.
 - [Internal Links Test](./internal-links.md)
 - [Cross-Document Test](./cross-document.md)
 
-:::slide:::
+
 
 ## HTTP/HTTPS URLs
 
@@ -26,7 +26,7 @@ The most common external links. These should open in your default browser.
 
 **Expected Behavior:** Each link should open in your default browser.
 
-:::slide:::
+
 
 ## Email Links
 
@@ -42,7 +42,7 @@ Test `mailto:` protocol handling.
 
 **Expected Behavior:** Should open your default email client with the address pre-filled.
 
-:::slide:::
+
 
 ## File Protocol Links
 
@@ -56,7 +56,7 @@ Testing file:// protocol (may have security restrictions).
 
 **Expected Behavior:** May be blocked or open in file explorer.
 
-:::slide:::
+
 
 ## Custom Protocol Links
 
@@ -72,7 +72,7 @@ Testing various custom protocols that applications might register.
 
 **Expected Behavior:** Should open in the respective application if installed.
 
-:::slide:::
+
 
 ## FTP and Other Protocols
 
@@ -89,7 +89,7 @@ Testing less common but valid protocols.
 
 **Expected Behavior:** Should open in appropriate application or show protocol handler dialog.
 
-:::slide:::
+
 
 ## URL Edge Cases
 
@@ -107,7 +107,7 @@ Testing edge cases and complex URLs.
 - [API Endpoint](https://api.github.com/repos/microsoft/vscode/issues?state=open&labels=bug) - API with parameters
 - [Long URL](https://www.example.com/very/long/path/with/many/segments?param1=value1&param2=value2&param3=value3#section) - Complex structure
 
-:::slide:::
+
 
 ## Link Text Variations
 
@@ -127,7 +127,7 @@ Testing different link text patterns and styles.
 - [Link with & symbols](https://example.com)
 - [Link with emoji 🚀](https://example.com)
 
-:::slide:::
+
 
 ## Invalid and Edge Case URLs
 
@@ -145,7 +145,7 @@ Testing how the system handles problematic URLs.
 - [IP Address](http://127.0.0.1:8080) - Local IP (safe)
 - [Data URL](data:text/plain;base64,SGVsbG8sIFdvcmxkIQ==) - Base64 encoded "Hello, World!"
 
-:::slide:::
+
 
 ## Testing Results
 

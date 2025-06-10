@@ -7,7 +7,6 @@ This file specifically tests various URL protocols and how they're handled by th
 - [External Links](./external-links.md)
 - [Cross-Document](./cross-document.md)
 
-:::slide:::
 
 ## Standard Web Protocols
 
@@ -25,7 +24,6 @@ Testing the most common web protocols.
 
 **Expected:** Should open in default browser or appropriate handler.
 
-:::slide:::
 
 ## Communication Protocols
 
@@ -45,7 +43,6 @@ Testing communication and messaging protocols.
 
 **Expected:** Should open appropriate communication app.
 
-:::slide:::
 
 ## Application Deep Links
 
@@ -67,7 +64,6 @@ Testing application-specific protocol handlers.
 
 **Expected:** Should open in respective application if installed.
 
-:::slide:::
 
 ## Media and Content Protocols
 
@@ -89,7 +85,7 @@ Testing media and content-specific protocols.
 
 **Expected:** Should open in appropriate app or browser.
 
-:::slide:::
+
 
 ## Custom and Uncommon Protocols
 
@@ -112,7 +108,7 @@ Testing less common but valid protocols.
 
 **Expected:** May show protocol handler dialog or open in specialized apps.
 
-:::slide:::
+
 
 ## Protocol Edge Cases
 
@@ -135,7 +131,7 @@ Testing edge cases and malformed protocols.
 
 **Expected:** Should handle gracefully or show appropriate error.
 
-:::slide:::
+
 
 ## Fragment Test
 
@@ -150,7 +146,7 @@ This section tests internal fragment navigation within the protocol test file.
 
 **This validates that internal navigation still works in protocol test files.**
 
-:::slide:::
+
 
 ## Security Considerations
 
@@ -170,7 +166,7 @@ Testing potential security-related protocols and URLs.
 
 **Expected:** Dangerous protocols should be blocked; safe ones may work.
 
-:::slide:::
+
 
 ## Protocol Testing Results
 

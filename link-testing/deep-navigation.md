@@ -7,7 +7,7 @@ This file tests complex navigation patterns that span multiple files and create 
 - [Start Chain](#start-chain)
 - [Jump to Complex Pattern](#complex-navigation-patterns)
 
-:::slide:::
+
 
 ## Start Chain
 
@@ -24,7 +24,7 @@ This is the starting point for testing complex navigation patterns.
 ### Start the Journey
 **Click here to begin:** [Navigation Chain Step 1](#navigation-chain-step-1)
 
-:::slide:::
+
 
 ## Navigation Chain Step 1
 
@@ -46,7 +46,7 @@ After clicking that link:
 2. Look for links back to this file
 3. Continue the navigation chain
 
-:::slide:::
+
 
 ## Navigation Chain Step 2
 
@@ -68,7 +68,7 @@ If you reached this section from another file, the cross-document navigation is 
 - [Jump to Final Destination](#final-destination)
 - [Return to Hub](./index.md)
 
-:::slide:::
+
 
 ## Complex Navigation Patterns
 
@@ -96,7 +96,7 @@ Test rapid clicking (click quickly in sequence):
 - [File B](./cross-document.md) → Should link back here  
 - This file → Links to both files
 
-:::slide:::
+
 
 ## Pattern Test Section
 
@@ -118,7 +118,7 @@ Other files reference this section:
 - [Jump to Final Destination](#final-destination)
 - [Test Another Pattern](./cross-document.md#navigation-chains)
 
-:::slide:::
+
 
 ## Nested Navigation Chains
 
@@ -141,7 +141,7 @@ Choose your adventure:
 
 All paths should eventually lead back to the [Hub](./index.md).
 
-:::slide:::
+
 
 ## Error Recovery Testing
 
@@ -166,7 +166,7 @@ This section tests how the system handles navigation errors.
 
 **Expected:** System should handle errors gracefully and continue functioning.
 
-:::slide:::
+
 
 ## Performance Stress Test
 
@@ -195,7 +195,7 @@ Try clicking multiple links rapidly to test:
 - Navigation history
 - Error handling under load
 
-:::slide:::
+
 
 ## Final Destination
 

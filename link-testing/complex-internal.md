@@ -7,7 +7,7 @@ This file contains many sections and complex internal structure to test advanced
 - [Skip to Advanced Features](#advanced-features)
 - [Jump to Performance Test](#performance-section)
 
-:::slide:::
+
 
 ## Introduction Section
 
@@ -24,7 +24,7 @@ This file is designed to test complex internal navigation with:
 - [Expert Features](#expert-features)
 - [Performance Section](#performance-section)
 
-:::slide:::
+
 
 ## Basic Features
 
@@ -40,7 +40,7 @@ Testing basic internal navigation features.
 - [Section with Symbols](#section-with-symbols)
 - [Section with Emoji](#section-with-emoji-🎯)
 
-:::slide:::
+
 
 ## Section 1: Numbered
 
@@ -61,7 +61,7 @@ Even deeper numbering.
 - [Back to Parent](#section-1-numbered)
 - [Skip to Different Section](#advanced-features)
 
-:::slide:::
+
 
 ## Section with Symbols & Special Characters!
 
@@ -79,7 +79,7 @@ Testing special character handling in section names.
 - [Another Special](#section-with-emoji-🎯)
 - [Advanced Features](#advanced-features)
 
-:::slide:::
+
 
 ## Section with Emoji 🎯
 
@@ -97,7 +97,7 @@ Testing emoji handling in section navigation.
 - [Continue to Intermediate](#intermediate-features)
 - [Performance Test](#performance-section)
 
-:::slide:::
+
 
 ## Intermediate Features
 
@@ -119,7 +119,7 @@ Maximum depth content.
 - [Skip to Advanced](#advanced-features)
 - [Jump to Performance](#performance-section)
 
-:::slide:::
+
 
 ## Advanced Features
 
@@ -138,7 +138,7 @@ Click these rapidly to test performance:
 4. [Link 4](#performance-section)
 5. [Back Here](#advanced-features)
 
-:::slide:::
+
 
 ## Very Long Section Name with Many Words for Testing
 
@@ -152,7 +152,7 @@ This section has an extremely long name to test anchor generation and navigation
 - [Medium Name](#intermediate-features)
 - [Another Long Name](#section-with-mixed-123-characters-symbols)
 
-:::slide:::
+
 
 ## Section with Mixed 123 Characters & Symbols!
 
@@ -170,7 +170,7 @@ Testing mixed alphanumeric and symbol handling.
 - [Pure Symbols](#section-with-symbols-special-characters)
 - [Emoji Mix](#section-with-emoji-🎯)
 
-:::slide:::
+
 
 ## Section with Unicode Characters 测试
 
@@ -188,7 +188,7 @@ Testing unicode character handling in navigation.
 - [Mixed Characters](#section-with-mixed-123-characters-symbols)
 - [Performance](#performance-section)
 
-:::slide:::
+
 
 ## Expert Features
 
@@ -209,7 +209,7 @@ Testing programmatically generated navigation:
 - [Chain End](#chain-step-gamma)
 - [Chain Loop](#expert-features)
 
-:::slide:::
+
 
 ## Chain Step Alpha
 
@@ -221,7 +221,7 @@ This is part of a complex navigation chain.
 **Skip:** [Jump to Gamma](#chain-step-gamma)
 **Exit:** [Leave Chain](#performance-section)
 
-:::slide:::
+
 
 ## Chain Step Beta
 
@@ -233,7 +233,7 @@ Middle step of the expert navigation chain.
 **Next:** [Continue to Gamma](#chain-step-gamma)
 **Alternative:** [Skip to Performance](#performance-section)
 
-:::slide:::
+
 
 ## Chain Step Gamma
 
@@ -245,7 +245,7 @@ Final step of the expert navigation chain.
 **Start Over:** [Return to Alpha](#chain-step-alpha)
 **Complete:** [Exit to Performance](#performance-section)
 
-:::slide:::
+
 
 ## Performance Section
 
@@ -279,7 +279,7 @@ Test these scenarios:
 - **Sequential Navigation:** Follow links in order
 - **Stress Testing:** Many rapid clicks
 
-:::slide:::
+
 
 ## Conclusion
 
