@@ -53,6 +53,20 @@
         "disruptor-showcase/Knowledge-Base-Killer.md",
         "disruptor-showcase/CI-CD-Monitoring-Killer.md"
       ]
+    },
+    {
+      "title": "Complete Product Management",
+      "files": [
+        "product-management/Software-Product-Lifecycle.md"
+      ]
+    },
+    {
+      "title": "Principle in the Loop",
+      "files": [
+        "principle-in-loop/Workflow-Overview.md",
+        "principle-in-loop/Agent-Proposal-Example.md",
+        "principle-in-loop/Clarification-Request.md"
+      ]
     }
   ]
 }
